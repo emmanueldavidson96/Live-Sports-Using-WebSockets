@@ -23,61 +23,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000326" />
-      <entry key="S5" value="1.0000189271988031" />
-      <entry key="S10" value="1.01945247601028" />
-      <entry key="S30" value="3.7308148921840076" />
-      <entry key="S60" value="12.873417176920917" />
-      <entry key="M2" value="29.40505994473787" />
-      <entry key="M5" value="52.31890551722083" />
-      <entry key="M10" value="66.42103380716473" />
-      <entry key="M15" value="77.30073564782283" />
-      <entry key="M30" value="114.74068923485451" />
-      <entry key="H1" value="187.8239281373077" />
-      <entry key="H2" value="278.2723772460086" />
-      <entry key="H4" value="354.029286005413" />
-      <entry key="D1" value="442.6506584402907" />
-      <entry key="W1" value="460.86580988084427" />
+      <entry key="MS100" value="1.381311864982528" />
+      <entry key="MS500" value="3.134031219211178" />
+      <entry key="S2" value="7.102012815930964" />
+      <entry key="S5" value="9.918285392069793" />
+      <entry key="S10" value="11.313600354742544" />
+      <entry key="S30" value="14.862043479936473" />
+      <entry key="S60" value="23.981572473935046" />
+      <entry key="M2" value="40.54324018389713" />
+      <entry key="M5" value="63.742199473577095" />
+      <entry key="M10" value="78.06117492746169" />
+      <entry key="M15" value="89.02418691811276" />
+      <entry key="M30" value="126.53953732075423" />
+      <entry key="H1" value="199.66202677365806" />
+      <entry key="H2" value="290.1534790734558" />
+      <entry key="H4" value="365.9539442618846" />
+      <entry key="D1" value="454.63500275691615" />
+      <entry key="W1" value="472.8634823649488" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="5.153653801663197E-249" />
-      <entry key="S30" value="1.7273158060282354E-83" />
-      <entry key="S60" value="4.1560988992422243E-42" />
-      <entry key="M2" value="2.038651245123158E-21" />
-      <entry key="M5" value="5.293430004160018E-9" />
-      <entry key="M10" value="7.27559619836069E-5" />
-      <entry key="M15" value="0.001742792670932188" />
-      <entry key="M30" value="0.04174676838908853" />
-      <entry key="H1" value="0.2043202593701575" />
-      <entry key="H2" value="0.4520179856710987" />
-      <entry key="H4" value="0.6723228284619617" />
-      <entry key="D1" value="0.9359722574819593" />
-      <entry key="W1" value="0.9905917595739099" />
+      <entry key="S10" value="3.81027632439873E-249" />
+      <entry key="S30" value="1.5618961608300567E-83" />
+      <entry key="S60" value="3.9520831985549875E-42" />
+      <entry key="M2" value="1.9879847078272424E-21" />
+      <entry key="M5" value="5.240409384962371E-9" />
+      <entry key="M10" value="7.239067194716736E-5" />
+      <entry key="M15" value="0.0017369543524746029" />
+      <entry key="M30" value="0.041676784334622255" />
+      <entry key="H1" value="0.20414892685150754" />
+      <entry key="H2" value="0.4518284263429069" />
+      <entry key="H4" value="0.6721818402358847" />
+      <entry key="D1" value="0.9359395418989082" />
+      <entry key="W1" value="0.990586813109769" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.4829681644624228" />
-      <entry key="MS500" value="0.8645372313078652" />
-      <entry key="S2" value="0.9642639382519833" />
-      <entry key="S5" value="0.9855682209302664" />
-      <entry key="S10" value="1.0121767955446268" />
-      <entry key="S30" value="3.7273086748769275" />
-      <entry key="S60" value="12.869780835121507" />
-      <entry key="M2" value="29.401348367247373" />
-      <entry key="M5" value="52.31582489249804" />
-      <entry key="M10" value="66.4186185484443" />
-      <entry key="M15" value="77.30022606755844" />
-      <entry key="M30" value="114.77969276987142" />
-      <entry key="H1" value="188.02448091760752" />
-      <entry key="H2" value="278.7208024291559" />
-      <entry key="H4" value="354.69906657334855" />
-      <entry key="D1" value="443.58605941010137" />
-      <entry key="W1" value="461.85631567434524" />
+      <entry key="MS100" value="1.3259422404234384" />
+      <entry key="MS500" value="3.0421392597565515" />
+      <entry key="S2" value="7.042035085534043" />
+      <entry key="S5" value="9.883759707342756" />
+      <entry key="S10" value="11.293606549263089" />
+      <entry key="S30" value="14.85366996774496" />
+      <entry key="S60" value="23.97546864957269" />
+      <entry key="M2" value="40.538286505747834" />
+      <entry key="M5" value="63.73861321160441" />
+      <entry key="M10" value="78.05850308632478" />
+      <entry key="M15" value="89.02349980284266" />
+      <entry key="M30" value="126.5783857979348" />
+      <entry key="H1" value="199.86236653151386" />
+      <entry key="H2" value="290.6016937761697" />
+      <entry key="H4" value="366.62357316001305" />
+      <entry key="D1" value="455.57036916188383" />
+      <entry key="W1" value="473.8539829453796" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -89,27 +89,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\HP\\WebstormProjects\\LiveScores\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\HP\\WebstormProjects\\LiveScores\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\WebstormProjects\LiveScores\src\db" />

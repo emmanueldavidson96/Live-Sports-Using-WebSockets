@@ -41,6 +41,12 @@ build/Release
 node_modules/
 jspm_packages/
 
+# IDE and local agent state
+.idea/
+.vscode/
+.ai/
+*.iml
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 

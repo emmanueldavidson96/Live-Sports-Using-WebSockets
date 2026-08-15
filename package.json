@@ -6,11 +6,10 @@
   "scripts": {
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:crud": "tsx src/crud.ts",
     "build": "tsc",
-    "dev": "tsx src/server.ts",
-    "start:dev": "tsc && node --watch dist/server.js",
-    "start": "node dist/server.js",
+    "dev": "node api.js && tsx src/server.ts",
+    "start:dev": "node api.js && tsc && node --watch dist/server.js",
+    "start": "node api.js && node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +20,7 @@
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
     "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
     "pg": "^8.23.0"
   },
   "devDependencies": {

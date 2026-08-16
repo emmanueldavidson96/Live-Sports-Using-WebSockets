@@ -7,9 +7,9 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "build": "tsc",
-    "dev": "tsx src/index.ts",
-    "start:dev": "tsc && node --watch dist/index.js",
-    "start": "node dist/index.js",
+    "dev": "node api.js && tsx src/index.ts",
+    "start:dev": "node api.js && tsc && node --watch dist/index.js",
+    "start": "node api.js && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +17,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@arcjet/inspect": "^1.10.0",
+    "@arcjet/node": "^1.10.0",
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
     "express": "^5.2.1",

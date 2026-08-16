@@ -2,6 +2,7 @@ import express, { Application, Request, Response } from "express";
 import { matchRouter } from "./routes/matches.js";
 import http from 'http';
 import { attachWebSocketServer } from "./websocket/server.js";
+import {securityMiddleware} from "./arcjet.js";
 
 const PORT = Number(process.env.PORT || 8000);
 const HOST = process.env.HOST || "0.0.0.0";
@@ -18,6 +19,8 @@ app.get("/", (request: Request, response: Response): void => {
 app.get("/api/v1", (request: Request, response: Response): void => {
   response.send("Welcome to Live scores API");
 });
+
+app.use(securityMiddleware());
 
 app.use('/api/v1/matches', matchRouter);
 

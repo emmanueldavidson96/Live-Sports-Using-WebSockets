@@ -14,7 +14,7 @@ matchRouter.get("/", async (_request: Request, response: Response) => {
     if(!parsed.success) {
         return response.status(400).json({
             error: 'Invalid query',
-            details: JSON.stringify(parsed.error)
+            details: parsed.error.issues
         });
     }
 
@@ -53,6 +53,7 @@ matchRouter.post("/", async (request: Request, response: Response) => {
   } = parsed.data;
   const status = getMatchStatus(startTime, endTime);
 
+
   if (!status) {
     return response.status(400).json({
       error: "Invalid match dates.",
@@ -75,6 +76,9 @@ matchRouter.post("/", async (request: Request, response: Response) => {
       })
       .returning();
 
+    if(response.app.locals.broadcastMatchCreated) {
+        response.app.locals.broadcastMatchCreated(event);
+    }
     return response.status(201).json({ data: event });
   } catch (error) {
     return response.status(500).json({
